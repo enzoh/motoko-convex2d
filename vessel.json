@@ -1,0 +1,6 @@
+{
+ "name": "convex2d",
+  "repo": "git@github.com:matthewhammer/motoko-convex2d",
+  "version": "v1.0.0",
+  "dependencies": ["base", "stand", "redraw", "adapton"]
+}

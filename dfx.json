@@ -1,0 +1,22 @@
+{
+  "canisters": {
+    "calc": {
+      "frontend": {
+        "entrypoint": "src/adapton/public/index.js"
+      },
+      "main": "test/Quickhull.mo"
+    }
+  },
+  "defaults": {
+    "build": {
+      "output": "canisters/"
+    },
+    "start": {
+      "address": "127.0.0.1",
+      "port": 8000,
+      "serve_root": "canisters/quickhull/assets"
+    }
+  },
+  "dfx": "0.5.5",
+  "version": 1
+}
